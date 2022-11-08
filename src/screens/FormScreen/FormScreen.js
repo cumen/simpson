@@ -98,7 +98,7 @@ const FormScreen = ({ route, navigation }) => {
                                     />
                                     {touched.imageLink && <FormMessage message={errors.imageLink} />}
                                 </FormControl>
-                                <Button onPress={() => handleSubmit()} w="full" mt={5}>
+                                <Button testID="addButton" onPress={() => handleSubmit()} w="full" mt={5}>
                                     {i18next.t('Buttons.AddCharacter')}
                                 </Button>
                             </VStack>
