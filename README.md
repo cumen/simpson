@@ -2,8 +2,6 @@
 
 #### Example:
 
-TweetWorld 
-
 The simpson list application, built with React-Native, Mobx, Formik, Yup, NativeBase and JavaScript.
 
 ## Installation and Setup Instructions
